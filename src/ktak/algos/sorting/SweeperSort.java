@@ -13,7 +13,7 @@ public class SweeperSort {
      * sorting algorithm with runtime complexity O(n/k * n * log(k+1)) where
      * n is the size of the array and k is the second parameter that
      * determines the size of the heap used. when k = 1 the complexity is
-     * O(n^2) and the algorithm behaves like bubble sort. when k = n the
+     * O(n^2) and the algorithm behaves like selection sort. when k = n the
      * complexity is O(n * log(n)) and the algorithm behaves like heap sort
      */
     public static <T> void sort(T[] a, int k, Comparator<T> cmp) {
